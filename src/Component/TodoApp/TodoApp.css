@@ -1,0 +1,25 @@
+.header {
+  background-color: rgba(196, 166, 0, 0.212);
+  top: 0;
+  padding: 1px;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  letter-spacing: 5px;
+  position: fixed;
+  width: 100%;
+  font-size: 40px;
+  text-shadow: 10px 20px 30px rgb(31, 31, 31);
+
+}
+
+
+
+.header h1 {
+  color: rgba(250, 231, 121, 0.938);
+  animation: clignote 5s linear infinite;
+  
+  }
+@keyframes clignote {  
+ 80% { opacity: 0; }
+}
